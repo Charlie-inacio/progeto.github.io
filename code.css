@@ -1,0 +1,41 @@
+h1{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+  .rainbow {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    animation: colorRotate 2s linear 0s infinite;
+  }
+  
+  @keyframes colorRotate {
+    from {
+      color: #6666ff;
+    }
+    10% {
+      color: #0099ff;
+    }
+    50% {
+      color: #0f680f;
+    }
+    75% {
+      color: #af1a1a;
+    }
+    100% {
+      color: #2828ee;
+    }
+  }
+  h2{
+      font-size: 30px;
+      font-family: fantasy;
+      text-align: center;
+      text-decoration: underline;
+  }
+  h3{
+      font-size: 20px;
+      text-align: center;
+  }
